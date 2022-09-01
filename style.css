@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  background-image: url("https://media.istockphoto.com/photos/light-blue-paper-color-with-texture-for-background-picture-id1095286208?b=1&k=20&m=1095286208&s=612x612&w=0&h=N_jufaajP1sHgjdvmRrF6rfD-QFdZQOwYsTTxg45rSc=");
+  background-size: cover;
+}
+.leftside {
+  width: 33vw;
+  height: 100vh;
+  background-image: url("https://media.istockphoto.com/photos/abstract-defocused-blue-soft-background-picture-id937026088?b=1&k=20&m=937026088&s=170667a&w=0&h=hvijBNYiaVPRELtNZmVryg-20BROtPkhGKQBBN0z58o=");
+  background-size: cover;
+}
+.front {
+  display: flex;
+  height: 30vh;
+  width: 25vw;
+  background-color: rgb(57, 52, 52);
+  color: goldenrod;
+  margin: 10vh 35vh;
+  border-radius: 2vh;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: stretch;
+}
+.text {
+  display: flex;
+  width: 25vw;
+  justify-content: space-around;
+  margin: 10px;
+}
+.clip {
+  display: flex;
+  width: 25vw;
+  justify-content: space-around;
+  margin: 10px;
+}
+#clip {
+  height: 4vh;
+  width: 4vw;
+  background-image: url("https://th.bing.com/th/id/R.6c883ad4be7931607a63bc8e00e81f0f?rik=FhOVomoEkFhpPA&pid=ImgRaw&r=0");
+  background-size: cover;
+}
+.details {
+  display: flex;
+  height: 10vh;
+  width: 25vw;
+  justify-content: space-around;
+}
+#cnum {
+  display: flex;
+  justify-content: space-around;
+  height: 7vh;
+  width: 25vw;
+}
+.logo {
+  background-image: url("https://cdn.shopify.com/s/files/1/0881/0870/t/11/assets/601e5d52-01b7-4462-b005-17f96dcdedad_87a27180-bf52-49e6-9adc-ee0d025b6ab3.png?v=1647213323");
+  height: 4vh;
+  width: 4vw;
+  background-size: cover;
+}
+#cardholdername {
+  display: flex;
+  justify-content: space-around;
+  height: 6vh;
+  width: 25vw;
+}
+.back {
+  display: flex;
+  height: 30vh;
+  width: 25vw;
+  background-color: rgb(57, 52, 52);
+  color: goldenrod;
+  margin: 5vh 45vh;
+  border-radius: 2vh;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+}
+#a1 {
+  padding: 5px;
+  text-align: center;
+  font-size: 8px;
+}
+.code {
+  height: 6vh;
+  width: 25vw;
+  background-color: white;
+  margin: 3vh 0 0.5vh;
+}
+.code2 {
+  display: flex;
+  height: 6vh;
+  width: 22vw;
+  background-color: white;
+  margin: 10px 0;
+  border-radius: 0.5vh;
+  text-align: right;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.p {
+  margin: 2px;
+  text-align: justify;
+  color: black;
+}
+.data {
+  display: flex;
+  width: 40vw;
+  height: 60vh;
+  background-color: white;
+
+  margin: 0 10vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.exp input {
+  height: 20px;
+  width: 40px;
+}
+.exp {
+  display: flex;
+}
+.expdata {
+  display: flex;
+}
+.btn button {
+  width: 150px;
+  height: 4vh;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(38, 36, 36);
+}
+button:hover {
+  cursor: pointer;
+}
+input {
+  padding: 4px;
+  margin: 4px;
+}

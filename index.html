@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive card details form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <div class="container">
+        <div class="leftside">
+          <div class="front">
+            <div class="text">
+              <div><h2>APNA BANK</h2></div>
+              <div><h4>BUSINESS</h4></div>
+            </div>
+            <div class="clip">
+              <div id="clip"></div>
+              <div><h5>Debit</h5></div>
+            </div>
+            <div id="cnum">
+              <div><h3>1234</h3></div>
+              <div><h3>1234</h3></div>
+              <div><h3>1234</h3></div>
+              <div><h3>1234</h3></div>
+            </div>
+            <div id="cardholdername">
+              <div><h4>Name</h4></div>
+              <div class="logo"></div>
+            </div>
+            <div class="details">
+              <div><h5>john peter</h5></div>
+              <div><h4>MasterCard</h4></div>
+            </div>
+          </div>
+          <div class="back">
+            <div class="code"></div>
+            <div class="code2">
+              <div class="p">cvv 9 9 9</div>
+            </div>
+            <div id="info">
+              <p id="a1">Lorem, ipsum dolor.</p>
+              <p id="a1">Lorem ipsum dolor amet.</p>
+              <p id="a1">Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+          </div>
+        </div>
+        <div class="data">
+          <div class="holder">
+            <h4>card holder name</h4>
+            <input type="text" placeholder="e.g. john darky" />
+          </div>
+          <br />
+          <div class="cardnum">
+            <h4>Card Number</h4>
+            <input
+              type="text"
+              maxlength="14"
+              placeholder="e.g 1234 1234 1234 12"
+            />
+          </div>
+          <br />
+          <div class="exp">
+            <div class="expdata">
+              <div>
+                <h4>exp- date</h4>
+                <div>
+                  <input type="text" maxlength="2" placeholder="MM" />
+                  <input type="text" maxlength="2" placeholder="YY" />
+                </div>
+              </div>
+              <div>
+                <h4>cvv</h4>
+                <div><input type="text" maxlength="3" placeholder="123" /></div>
+              </div>
+            </div>
+          </div>
+          <br />
+          <div class="btn">
+            <button type="button" onclick="alert('Data Submited Sucessfully')">
+              submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
